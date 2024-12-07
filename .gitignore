@@ -361,3 +361,10 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# (Manually Added By: Christopher Lentocha)
+# (Hopefully) Disable Windows 7.1.0 WDK (Windows Driver Kit) Compiled/Binary Files
+
+obj*_*_*/
+*/obj*_*_*/
+
